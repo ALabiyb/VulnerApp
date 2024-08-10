@@ -6,6 +6,8 @@
 </head>
 <body>
     <h1>Welcome to the Vulnerable Web Application</h1>
+    <p>This web application demonstrates common security vulnerabilities. Explore the examples below:</p>
+
 
     <!-- SQL Injection Vulnerability -->
     <h2>SQL Injection Example</h2>
