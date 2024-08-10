@@ -16,6 +16,7 @@
         <input type="text" name="id" id="id">
         <input type="submit" value="Submit">
     </form>
+    <p>Test the application's susceptibility to SQL injection by entering malicious input.</p>
 
     <!-- XSS Vulnerability -->
     <h2>Cross-Site Scripting (XSS) Example</h2>
