@@ -20,7 +20,7 @@ spec:
         app: antique_cafe
     spec:
       containers:
-      - name: antique_cafe
-        image: munimdevops/cicd
-        ports:
-        - contaiinerPort: 80
+        - name: antique_cafe
+          image: munimdevops/cicd
+          ports:
+            - containerPort: 80 
