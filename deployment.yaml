@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: antique
+  name: antique
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: antique_cafe
+  strategy:
+    rollingUpdate:
+      maxSurge: 25%
+      maxUnavailable: 25%
+    type: RollingUpdate
+  template:
+    metadata:
+      labels:
+        app: antique_cafe
+    spec:
+      containers:
+      - name: antique_cafe
+        image: munimdevops/cicd
+        ports:
+        - contaiinerPort: 80
