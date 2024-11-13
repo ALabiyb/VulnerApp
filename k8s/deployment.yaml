@@ -8,7 +8,7 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      app: antique_cafe
+      app: antique-cafe
   strategy:
     rollingUpdate:
       maxSurge: 25%
@@ -17,10 +17,10 @@ spec:
   template:
     metadata:
       labels:
-        app: antique_cafe
+        app: antique-cafe
     spec:
       containers:
-        - name: antique_cafe
+        - name: antique-cafe
           image: munimdevops/cicd
           ports:
             - containerPort: 80 
