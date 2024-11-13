@@ -5,7 +5,7 @@ metadata:
     app: antique
   name: antique
 spec:
-  replicas: 1
+  replicas: 3
   selector:
     matchLabels:
       app: antique-cafe
