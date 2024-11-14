@@ -21,6 +21,6 @@ spec:
     spec:
       containers:
         - name: antique-cafe
-          image: munimdevops/cicd:84
+          image: munimdevops/cicd:85
           ports:
             - containerPort: 80 
